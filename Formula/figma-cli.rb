@@ -1,13 +1,13 @@
 class FigmaCli < Formula
   desc "Control Figma Desktop from the CLI via a plugin bridge — no API key"
   homepage "https://github.com/haider-patanwala/figma-cli"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/haider-patanwala/figma-cli/releases/download/v0.1.0/figma-cli-macos-arm64"
-      sha256 "127ea2afba35010713002f9d8296810ba1f934d2baf91f9a74f9fe7cdc95dae9"
+      url "https://github.com/haider-patanwala/figma-cli/releases/download/v0.1.1/figma-cli-macos-arm64"
+      sha256 "0e87beb34aa79af862637c2a8766c06ed095bfb1386c8e1455c9e2895ba00958"
     end
   end
 
